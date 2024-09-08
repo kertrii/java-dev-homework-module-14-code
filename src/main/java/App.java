@@ -4,9 +4,10 @@ public class App {
     public static final char PLAYER_MARK = 'X';
     public static final char COMPUTER_MARK = 'O';
 
+    private static Scanner scan = new Scanner(System.in);
+    private static char[] box = new char[] { '1', '2', '3', '4', '5', '6', '7', '8', '9' };
+
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        char[] box = { '1', '2', '3', '4', '5', '6', '7', '8', '9' };
 
         System.out.println("Enter box number to select. Enjoy!\n");
 
